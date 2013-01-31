@@ -7,7 +7,6 @@ require('functions.php');
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="stylescss.css" />
 	</head>
 	<body>
 		<div id="wrapper" class="container">

@@ -11,7 +11,7 @@ if(isset($_SESSION['message'])) {
 if(isset($_GET['p'])) {
 	$p = $_GET['p'];
 } else {
-	$p = 'list_bands';
+	$p = 'list_animals';
 }
 
 include("views/$p.php");
