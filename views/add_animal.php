@@ -27,6 +27,6 @@
 <?php //form submission methods, use $_GET or $_POST, $_GET you use when submitting something wont change the server state, $_Post you use if you are changing the Server?>
 	<div class="form-actions">
 		<button type="submit" class="btn btn-success"><i class="icon-plus-sign icon-white"></i>Submit</button>
-		<button type="button" class="btn">Cancel</button>
+		<a href="./?p=list_animals"><button type="button" class="btn">Cancel</button></a>
 	</div>
 </form>
