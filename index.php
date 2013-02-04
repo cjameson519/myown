@@ -9,6 +9,9 @@ require('functions.php');
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="animal.css" />
 	</head>
+	<header>
+		<img src="layout/JungleAnimalsBorder.jpg" alt="animals">
+	</header>
 	<body>
 		<div id="wrapper" class="container">
 			<header>

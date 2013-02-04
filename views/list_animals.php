@@ -1,11 +1,11 @@
 <h2>All Animals</h2>
-<table class='table table-striped'>
+<table class='table'>
 	<tr>
-		<th>Name</th>
-		<th>Found In</th>
-		<th>Endangered</th>
-		<th>Description</th>
-		<th>Edit / Delete</th>
+		<th class='gobs'>Name</th>
+		<th class='gobs'>Found In</th>
+		<th class='gobs'>Endangered</th>
+		<th class='gobs'>Description</th>
+		<th class='gobs'>Edit / Delete</th>
 	</tr>
 <?php 
 // read all line of csv file into an array
@@ -25,7 +25,7 @@ foreach($lines as $line) {
 	echo "<td>$name</td>";
 	echo "<td>$found</td>";
 	echo "<td>$end</td>";
-	echo "<td>$des</td>";
+	echo "<td>$des</td>";	
 	echo "<td><a class='btn btn-warning' href=\"./?p=form_edit_animal&animal=$i\"> <i class='icon-wrench icon-white'></i> </a> <a class='btn btn-danger' href=\"actions/delete_animal.php?linenum=$i\"><i class='icon-trash icon-white'></i></a></td>";
 	echo '</tr>';
 	

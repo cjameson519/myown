@@ -16,7 +16,7 @@ fclose($f);
 
 $_SESSION['message'] = array(
 		'text' => 'The animal no longer exists, nice going, you killed off an entire race.',
-		'type' => 'error'
+		'type' => 'warning'
 );
 header('Location:../?p=list_animals');
 //
