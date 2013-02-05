@@ -10,7 +10,7 @@ require('functions.php');
 		<link rel="stylesheet" type="text/css" href="animal.css" />
 	</head>
 	<header>
-		<img src="layout/JungleAnimalsBorder.jpg" alt="animals">
+		<img src="layout/animals.jpg" alt="animals">
 	</header>
 	<body>
 		<div id="wrapper" class="container">
