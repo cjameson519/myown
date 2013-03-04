@@ -1,0 +1,68 @@
+body {
+	background-color:#2F5221;
+	background-image:url(layout/cats2.jpg);
+	background-size:1663px 1700px;
+	background-repeat:no-repeat;
+}
+#wrapper {
+	background-color:#2F5221;
+	width:1100px;
+	border-radius:10px;
+	border:5px solid #C8C9C7;
+}
+table {
+	background-color:#C8C9C7;
+	color:#2F5221;
+	border-radius:10px;
+	width:940px;
+}
+.table {
+	width:75%;
+	margin:0px auto;
+}
+footer {
+	color:#C8C9C7;
+	margin-left:450px;
+	margin-top:20px;
+}
+h2 {
+	color:#C8C9C7;
+	margin-left:450px;
+}
+.navbar-inner {
+	background-color:#C8C9C7;
+	color:#2F5221;
+	border:3px solid #C8C9C7;
+}
+table th.gobs {
+	border-top:none;
+}
+header img {
+	border-radius:7px;
+	height:260px;
+	width:1090px;
+	margin:20px;
+	margin-left:280px;
+	border:5px solid #C8C9C7;
+	margin-bottom:10px;
+}
+.form-horizontal .control-group {
+	color:#C8C9C7;
+}
+nav {
+	padding:10px;
+}
+.form-actions {
+	border-radius:7px;
+	border:3px solid #C8C9C7;
+	width:875px;
+	margin:0px auto;
+}
+.alert {
+	border-radius:7px;
+	border:3px solid red;
+	width:875px;
+	margin:0px auto;
+	background-color:#C8C9C7;
+	color:#2F5221;
+}
